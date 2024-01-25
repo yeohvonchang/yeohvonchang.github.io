@@ -1,0 +1,47 @@
+#  The contact options.
+
+- title: Email
+  type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+
+- title: Github
+  type: github
+  icon: "fab fa-github"
+
+- title: X
+  type: twitter
+  icon: "fa-brands fa-x-twitter"
+
+- title: QQ
+  type: qq
+  icon: 'fab fa-qq'
+  url: 'tencent://AddContact/?fronld=45&fromSubld=1&subcmd=all&uin=122996305'
+
+- title: bilibili
+  type: bilibili
+  icon: 'fab fa-bilibili'
+  url: 'https://space.bilibili.com/374689394'
+
+- title: 豆瓣
+  type: 豆瓣
+  icon: 'fab fa-imdb'
+  url: 'https://www.douban.com/people/yangbaochang'
+
+- title: rss
+  type: rss
+  icon: 'fa-solid fa-newspaper' #"fas fa-rss"
+  noblank: true
+# Uncomment and complete the url below to enable more contact options
+#
+# - type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#
+# - type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Linkedin homepage
+#
+# - type: stack-overflow
+#   icon: 'fab fa-stack-overflow'
+#   url:  ''                  # Fill with your stackoverflow homepage
